@@ -82,6 +82,6 @@ print(f"Final Training Accuracy: {train_acc:.2f}%")
 print(f"Final Validation Accuracy: {val_acc:.2f}%")
 
 # Save the model
-model_save_path = '/content/drive/MyDrive/peanut_model.h5'
+model_save_path = '/content/drive/MyDrive/trained_model(1).h5'
 model.save(model_save_path)
 print(f"Model saved as {model_save_path}.")
